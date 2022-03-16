@@ -3,48 +3,98 @@
 {"type": "node", "id": "2", "labels": ["Node"], "properties": {"name": "Area", "type": "Object node"}}
 {"type": "node", "id": "3", "labels": ["Node"], "properties": {"name": "Sub Area", "type": "Object node"}}
 {"type": "node", "id": "4", "labels": ["Node"], "properties": {"name": "Analog Input Controller", "type": "asset", "code": "AIC"}}
-{"type": "relationship", "id": "5", "labels": "instance_of", "start": {"id": "5", "labels": ["Node"]}, "end": {"id": "0", "labels": ["Node"]}}
+{"type": "relationship", "id": "5", "labels": "instance_of", "start": {"id": "4", "labels": ["Node"]}, "end": {"id": "0", "labels": ["Node"]}}
 {"type": "node", "id": "6", "labels": ["Node"], "properties": {"name": "Analog Input Transmitter", "type": "asset", "code": "AIT"}}
-{"type": "relationship", "id": "7", "labels": "instance_of", "start": {"id": "7", "labels": ["Node"]}, "end": {"id": "0", "labels": ["Node"]}}
+{"type": "relationship", "id": "7", "labels": "instance_of", "start": {"id": "6", "labels": ["Node"]}, "end": {"id": "0", "labels": ["Node"]}}
 {"type": "node", "id": "8", "labels": ["Node"], "properties": {"name": "Arbiter", "type": "asset", "code": "ARB"}}
-{"type": "relationship", "id": "9", "labels": "instance_of", "start": {"id": "9", "labels": ["Node"]}, "end": {"id": "0", "labels": ["Node"]}}
+{"type": "relationship", "id": "9", "labels": "instance_of", "start": {"id": "8", "labels": ["Node"]}, "end": {"id": "0", "labels": ["Node"]}}
 {"type": "node", "id": "10", "labels": ["Node"], "properties": {"name": "Bin", "type": "asset", "code": "BIN"}}
-{"type": "relationship", "id": "11", "labels": "instance_of", "start": {"id": "11", "labels": ["Node"]}, "end": {"id": "0", "labels": ["Node"]}}
+{"type": "relationship", "id": "11", "labels": "instance_of", "start": {"id": "10", "labels": ["Node"]}, "end": {"id": "0", "labels": ["Node"]}}
 {"type": "node", "id": "12", "labels": ["Node"], "properties": {"name": "Blower", "type": "asset", "code": "BLR"}}
-{"type": "relationship", "id": "13", "labels": "instance_of", "start": {"id": "13", "labels": ["Node"]}, "end": {"id": "0", "labels": ["Node"]}}
+{"type": "relationship", "id": "13", "labels": "instance_of", "start": {"id": "12", "labels": ["Node"]}, "end": {"id": "0", "labels": ["Node"]}}
 {"type": "node", "id": "14", "labels": ["Node"], "properties": {"name": "Centrifuge", "type": "asset", "code": "CFG"}}
-{"type": "relationship", "id": "15", "labels": "instance_of", "start": {"id": "15", "labels": ["Node"]}, "end": {"id": "0", "labels": ["Node"]}}
+{"type": "relationship", "id": "15", "labels": "instance_of", "start": {"id": "14", "labels": ["Node"]}, "end": {"id": "0", "labels": ["Node"]}}
 {"type": "node", "id": "16", "labels": ["Node"], "properties": {"name": "Electrical Switch", "type": "asset", "code": "ES"}}
-{"type": "relationship", "id": "17", "labels": "instance_of", "start": {"id": "17", "labels": ["Node"]}, "end": {"id": "0", "labels": ["Node"]}}
+{"type": "relationship", "id": "17", "labels": "instance_of", "start": {"id": "16", "labels": ["Node"]}, "end": {"id": "0", "labels": ["Node"]}}
 {"type": "node", "id": "18", "labels": ["Node"], "properties": {"name": "Flow Indicator Controller", "type": "asset", "code": "FIC"}}
-{"type": "relationship", "id": "19", "labels": "instance_of", "start": {"id": "19", "labels": ["Node"]}, "end": {"id": "0", "labels": ["Node"]}}
+{"type": "relationship", "id": "19", "labels": "instance_of", "start": {"id": "18", "labels": ["Node"]}, "end": {"id": "0", "labels": ["Node"]}}
 {"type": "node", "id": "20", "labels": ["Node"], "properties": {"name": "FlowIndicatorTransmitter", "type": "asset", "code": "FIT"}}
-{"type": "relationship", "id": "21", "labels": "instance_of", "start": {"id": "21", "labels": ["Node"]}, "end": {"id": "0", "labels": ["Node"]}}
+{"type": "relationship", "id": "21", "labels": "instance_of", "start": {"id": "20", "labels": ["Node"]}, "end": {"id": "0", "labels": ["Node"]}}
 {"type": "node", "id": "22", "labels": ["Node"], "properties": {"name": "Level Indicator Controller", "type": "asset", "code": "LIC"}}
-{"type": "relationship", "id": "23", "labels": "instance_of", "start": {"id": "23", "labels": ["Node"]}, "end": {"id": "0", "labels": ["Node"]}}
+{"type": "relationship", "id": "23", "labels": "instance_of", "start": {"id": "22", "labels": ["Node"]}, "end": {"id": "0", "labels": ["Node"]}}
 {"type": "node", "id": "24", "labels": ["Node"], "properties": {"name": "Light", "type": "asset", "code": "LIT"}}
-{"type": "relationship", "id": "25", "labels": "instance_of", "start": {"id": "25", "labels": ["Node"]}, "end": {"id": "0", "labels": ["Node"]}}
+{"type": "relationship", "id": "25", "labels": "instance_of", "start": {"id": "24", "labels": ["Node"]}, "end": {"id": "0", "labels": ["Node"]}}
 {"type": "node", "id": "26", "labels": ["Node"], "properties": {"name": "Level Switch", "type": "asset", "code": "LS"}}
-{"type": "relationship", "id": "27", "labels": "instance_of", "start": {"id": "27", "labels": ["Node"]}, "end": {"id": "0", "labels": ["Node"]}}
+{"type": "relationship", "id": "27", "labels": "instance_of", "start": {"id": "26", "labels": ["Node"]}, "end": {"id": "0", "labels": ["Node"]}}
 {"type": "node", "id": "28", "labels": ["Node"], "properties": {"name": "Mixer", "type": "asset", "code": "MIX"}}
-{"type": "relationship", "id": "29", "labels": "instance_of", "start": {"id": "29", "labels": ["Node"]}, "end": {"id": "0", "labels": ["Node"]}}
+{"type": "relationship", "id": "29", "labels": "instance_of", "start": {"id": "28", "labels": ["Node"]}, "end": {"id": "0", "labels": ["Node"]}}
 {"type": "node", "id": "30", "labels": ["Node"], "properties": {"name": "Motor", "type": "asset", "code": "MTR"}}
-{"type": "relationship", "id": "31", "labels": "instance_of", "start": {"id": "31", "labels": ["Node"]}, "end": {"id": "0", "labels": ["Node"]}}
+{"type": "relationship", "id": "31", "labels": "instance_of", "start": {"id": "30", "labels": ["Node"]}, "end": {"id": "0", "labels": ["Node"]}}
 {"type": "node", "id": "32", "labels": ["Node"], "properties": {"name": "Pump", "type": "asset", "code": "PMP"}}
-{"type": "relationship", "id": "33", "labels": "instance_of", "start": {"id": "33", "labels": ["Node"]}, "end": {"id": "0", "labels": ["Node"]}}
+{"type": "relationship", "id": "33", "labels": "instance_of", "start": {"id": "32", "labels": ["Node"]}, "end": {"id": "0", "labels": ["Node"]}}
 {"type": "node", "id": "34", "labels": ["Node"], "properties": {"name": "Sequence", "type": "asset", "code": "SEQ"}}
-{"type": "relationship", "id": "35", "labels": "instance_of", "start": {"id": "35", "labels": ["Node"]}, "end": {"id": "0", "labels": ["Node"]}}
+{"type": "relationship", "id": "35", "labels": "instance_of", "start": {"id": "34", "labels": ["Node"]}, "end": {"id": "0", "labels": ["Node"]}}
 {"type": "node", "id": "36", "labels": ["Node"], "properties": {"name": "Temperature Sensor", "type": "asset", "code": "TE"}}
-{"type": "relationship", "id": "37", "labels": "instance_of", "start": {"id": "37", "labels": ["Node"]}, "end": {"id": "0", "labels": ["Node"]}}
+{"type": "relationship", "id": "37", "labels": "instance_of", "start": {"id": "36", "labels": ["Node"]}, "end": {"id": "0", "labels": ["Node"]}}
 {"type": "node", "id": "38", "labels": ["Node"], "properties": {"name": "Temperature Sensor", "type": "asset", "code": "TS"}}
-{"type": "relationship", "id": "39", "labels": "instance_of", "start": {"id": "39", "labels": ["Node"]}, "end": {"id": "0", "labels": ["Node"]}}
+{"type": "relationship", "id": "39", "labels": "instance_of", "start": {"id": "38", "labels": ["Node"]}, "end": {"id": "0", "labels": ["Node"]}}
 {"type": "node", "id": "40", "labels": ["Node"], "properties": {"name": "Vibration Sensor", "type": "asset", "code": "VE"}}
-{"type": "relationship", "id": "41", "labels": "instance_of", "start": {"id": "41", "labels": ["Node"]}, "end": {"id": "0", "labels": ["Node"]}}
+{"type": "relationship", "id": "41", "labels": "instance_of", "start": {"id": "40", "labels": ["Node"]}, "end": {"id": "0", "labels": ["Node"]}}
 {"type": "node", "id": "42", "labels": ["Node"], "properties": {"name": "Area 7", "type": "area", "code": "7"}}
-{"type": "relationship", "id": "43", "labels": "instance_of", "start": {"id": "43", "labels": ["Node"]}, "end": {"id": "2", "labels": ["Node"]}}
+{"type": "relationship", "id": "43", "labels": "instance_of", "start": {"id": "42", "labels": ["Node"]}, "end": {"id": "2", "labels": ["Node"]}}
 {"type": "node", "id": "44", "labels": ["Node"], "properties": {"name": "Area 3", "type": "area", "code": "3"}}
-{"type": "relationship", "id": "45", "labels": "instance_of", "start": {"id": "45", "labels": ["Node"]}, "end": {"id": "2", "labels": ["Node"]}}
+{"type": "relationship", "id": "45", "labels": "instance_of", "start": {"id": "44", "labels": ["Node"]}, "end": {"id": "2", "labels": ["Node"]}}
 {"type": "node", "id": "46", "labels": ["Node"], "properties": {"name": "Area 4", "type": "area", "code": "4"}}
-{"type": "relationship", "id": "47", "labels": "instance_of", "start": {"id": "47", "labels": ["Node"]}, "end": {"id": "2", "labels": ["Node"]}}
+{"type": "relationship", "id": "47", "labels": "instance_of", "start": {"id": "46", "labels": ["Node"]}, "end": {"id": "2", "labels": ["Node"]}}
 {"type": "node", "id": "48", "labels": ["Node"], "properties": {"name": "Area 0", "type": "area", "code": "0"}}
-{"type": "relationship", "id": "49", "labels": "instance_of", "start": {"id": "49", "labels": ["Node"]}, "end": {"id": "2", "labels": ["Node"]}}
+{"type": "relationship", "id": "49", "labels": "instance_of", "start": {"id": "48", "labels": ["Node"]}, "end": {"id": "2", "labels": ["Node"]}}
+{"type": "node", "id": "50", "labels": ["Node"], "properties": {"name": "Subarea 4", "type": "sub_area", "code": "4"}}
+{"type": "relationship", "id": "51", "labels": "instance_of", "start": {"id": "50", "labels": ["Node"]}, "end": {"id": "3", "labels": ["Node"]}}
+{"type": "node", "id": "52", "labels": ["Node"], "properties": {"name": "Subarea 3", "type": "sub_area", "code": "3"}}
+{"type": "relationship", "id": "53", "labels": "instance_of", "start": {"id": "52", "labels": ["Node"]}, "end": {"id": "3", "labels": ["Node"]}}
+{"type": "node", "id": "54", "labels": ["Node"], "properties": {"name": "Subarea 2", "type": "sub_area", "code": "2"}}
+{"type": "relationship", "id": "55", "labels": "instance_of", "start": {"id": "54", "labels": ["Node"]}, "end": {"id": "3", "labels": ["Node"]}}
+{"type": "node", "id": "56", "labels": ["Node"], "properties": {"name": "Subarea 6", "type": "sub_area", "code": "6"}}
+{"type": "relationship", "id": "57", "labels": "instance_of", "start": {"id": "56", "labels": ["Node"]}, "end": {"id": "3", "labels": ["Node"]}}
+{"type": "node", "id": "58", "labels": ["Node"], "properties": {"name": "Subarea 8", "type": "sub_area", "code": "8"}}
+{"type": "relationship", "id": "59", "labels": "instance_of", "start": {"id": "58", "labels": ["Node"]}, "end": {"id": "3", "labels": ["Node"]}}
+{"type": "node", "id": "60", "labels": ["Node"], "properties": {"name": "Subarea 1", "type": "sub_area", "code": "1"}}
+{"type": "relationship", "id": "61", "labels": "instance_of", "start": {"id": "60", "labels": ["Node"]}, "end": {"id": "3", "labels": ["Node"]}}
+{"type": "node", "id": "62", "labels": ["Node"], "properties": {"name": "Subarea 5", "type": "sub_area", "code": "5"}}
+{"type": "relationship", "id": "63", "labels": "instance_of", "start": {"id": "62", "labels": ["Node"]}, "end": {"id": "3", "labels": ["Node"]}}
+{"type": "node", "id": "64", "labels": ["Node"], "properties": {"name": "Subarea 9", "type": "sub_area", "code": "9"}}
+{"type": "relationship", "id": "65", "labels": "instance_of", "start": {"id": "64", "labels": ["Node"]}, "end": {"id": "3", "labels": ["Node"]}}
+{"type": "node", "id": "66", "labels": ["Node"], "properties": {"name": "aDEVH", "type": "attribute", "code": "aDEVH"}}
+{"type": "relationship", "id": "67", "labels": "instance_of", "start": {"id": "66", "labels": ["Node"]}, "end": {"id": "1", "labels": ["Node"]}}
+{"type": "node", "id": "68", "labels": ["Node"], "properties": {"name": "aDEVHH", "type": "attribute", "code": "aDEVHH"}}
+{"type": "relationship", "id": "69", "labels": "instance_of", "start": {"id": "68", "labels": ["Node"]}, "end": {"id": "1", "labels": ["Node"]}}
+{"type": "node", "id": "70", "labels": ["Node"], "properties": {"name": "aDEVL", "type": "attribute", "code": "aDEVL"}}
+{"type": "relationship", "id": "71", "labels": "instance_of", "start": {"id": "70", "labels": ["Node"]}, "end": {"id": "1", "labels": ["Node"]}}
+{"type": "node", "id": "72", "labels": ["Node"], "properties": {"name": "aDEVLL", "type": "attribute", "code": "aDEVLL"}}
+{"type": "relationship", "id": "73", "labels": "instance_of", "start": {"id": "72", "labels": ["Node"]}, "end": {"id": "1", "labels": ["Node"]}}
+{"type": "node", "id": "74", "labels": ["Node"], "properties": {"name": "c\\ATPERF", "type": "attribute", "code": "c\\ATPERF"}}
+{"type": "relationship", "id": "75", "labels": "instance_of", "start": {"id": "74", "labels": ["Node"]}, "end": {"id": "1", "labels": ["Node"]}}
+{"type": "node", "id": "76", "labels": ["Node"], "properties": {"name": "c\\ATSTEPAMPL", "type": "attribute", "code": "c\\ATSTEPAMPL"}}
+{"type": "relationship", "id": "77", "labels": "instance_of", "start": {"id": "76", "labels": ["Node"]}, "end": {"id": "1", "labels": ["Node"]}}
+{"type": "node", "id": "78", "labels": ["Node"], "properties": {"name": "c\\ATTMAX", "type": "attribute", "code": "c\\ATTMAX"}}
+{"type": "relationship", "id": "79", "labels": "instance_of", "start": {"id": "78", "labels": ["Node"]}, "end": {"id": "1", "labels": ["Node"]}}
+{"type": "node", "id": "80", "labels": ["Node"], "properties": {"name": "c\\DEVAHHLLTD", "type": "attribute", "code": "c\\DEVAHHLLTD"}}
+{"type": "relationship", "id": "81", "labels": "instance_of", "start": {"id": "80", "labels": ["Node"]}, "end": {"id": "1", "labels": ["Node"]}}
+{"type": "node", "id": "82", "labels": ["Node"], "properties": {"name": "c\\DEVAHLTD", "type": "attribute", "code": "c\\DEVAHLTD"}}
+{"type": "relationship", "id": "83", "labels": "instance_of", "start": {"id": "82", "labels": ["Node"]}, "end": {"id": "1", "labels": ["Node"]}}
+{"type": "node", "id": "84", "labels": ["Node"], "properties": {"name": "c\\DEVHHSP", "type": "attribute", "code": "c\\DEVHHSP"}}
+{"type": "relationship", "id": "85", "labels": "instance_of", "start": {"id": "84", "labels": ["Node"]}, "end": {"id": "1", "labels": ["Node"]}}
+{"type": "node", "id": "86", "labels": ["Node"], "properties": {"name": "c\\DEVHSP", "type": "attribute", "code": "c\\DEVHSP"}}
+{"type": "relationship", "id": "87", "labels": "instance_of", "start": {"id": "86", "labels": ["Node"]}, "end": {"id": "1", "labels": ["Node"]}}
+{"type": "node", "id": "88", "labels": ["Node"], "properties": {"name": "c\\DEVLLSP", "type": "attribute", "code": "c\\DEVLLSP"}}
+{"type": "relationship", "id": "89", "labels": "instance_of", "start": {"id": "88", "labels": ["Node"]}, "end": {"id": "1", "labels": ["Node"]}}
+{"type": "node", "id": "90", "labels": ["Node"], "properties": {"name": "c\\DEVLSP", "type": "attribute", "code": "c\\DEVLSP"}}
+{"type": "relationship", "id": "91", "labels": "instance_of", "start": {"id": "90", "labels": ["Node"]}, "end": {"id": "1", "labels": ["Node"]}}
+{"type": "node", "id": "92", "labels": ["Node"], "properties": {"name": "c\\KP", "type": "attribute", "code": "c\\KP"}}
+{"type": "relationship", "id": "93", "labels": "instance_of", "start": {"id": "92", "labels": ["Node"]}, "end": {"id": "1", "labels": ["Node"]}}
+{"type": "node", "id": "94", "labels": ["Node"], "properties": {"name": "c\\OPMAN", "type": "attribute", "code": "c\\OPMAN"}}
+{"type": "relationship", "id": "95", "labels": "instance_of", "start": {"id": "94", "labels": ["Node"]}, "end": {"id": "1", "labels": ["Node"]}}
+{"type": "node", "id": "96", "labels": ["Node"], "properties": {"name": "c\\OPMAX", "type": "attribute", "code": "c\\OPMAX"}}
+{"type": "relationship", "id": "97", "labels": "instance_of", "start": {"id": "96", "labels": ["Node"]}, "end": {"id": "1", "labels": ["Node"]}}
+{"type": "node", "id": "98", "labels": ["Node"], "properties": {"name": "c\\OPMIN", "type": "attribute", "code": "c\\OPMIN"}}
+{"type": "relationship", "id": "99", "labels": "instance_of", "start": {"id": "98", "labels": ["Node"]}, "end": {"id": "1", "labels": ["Node"]}}
