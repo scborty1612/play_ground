@@ -14,14 +14,14 @@
 {"type":"node","id":"22","labels":["Node"],"properties":{"name":"Level Indicator Controller","type":"asset","code":"LIC"}}
 {"type":"node","id":"24","labels":["Node"],"properties":{"name":"Light","type":"asset","code":"LIT"}}
 {"type":"node","id":"26","labels":["Node"],"properties":{"name":"Level Switch","type":"asset","code":"LS"}}
-{"type":"relationship","id":"27","labels":"instance_of","start":{"id":"26","labels":["Node"]},"end":{"id":"0","labels":["Node"]}}
-{"type":"relationship","id":"5","labels":"instance_of","start":{"id":"4","labels":["Node"]},"end":{"id":"0","labels":["Node"]}}
-{"type":"relationship","id":"7","labels":"instance_of","start":{"id":"6","labels":["Node"]},"end":{"id":"0","labels":["Node"]}}
-{"type":"relationship","id":"9","labels":"instance_of","start":{"id":"8","labels":["Node"]},"end":{"id":"0","labels":["Node"]}}
-{"type":"relationship","id":"11","labels":"instance_of","start":{"id":"10","labels":["Node"]},"end":{"id":"0","labels":["Node"]}}
-{"type":"relationship","id":"13","labels":"instance_of","start":{"id":"12","labels":["Node"]},"end":{"id":"0","labels":["Node"]}}
-{"type":"relationship","id":"15","labels":"instance_of","start":{"id":"14","labels":["Node"]},"end":{"id":"0","labels":["Node"]}}
-{"type":"relationship","id":"17","labels":"instance_of","start":{"id":"16","labels":["Node"]},"end":{"id":"0","labels":["Node"]}}
-{"type":"relationship","id":"19","labels":"instance_of","start":{"id":"18","labels":["Node"]},"end":{"id":"0","labels":["Node"]}}
-{"type":"relationship","id":"21","labels":"instance_of","start":{"id":"20","labels":["Node"]},"end":{"id":"0","labels":["Node"]}}
-{"type":"relationship","id":"23","labels":"instance_of","start":{"id":"22","labels":["Node"]},"end":{"id":"0","labels":["Node"]}}
+{"type":"relationship","id":"27","label":"instance_of","start":{"id":"26","labels":["Node"]},"end":{"id":"0","labels":["Node"]}}
+{"type":"relationship","id":"5","label":"instance_of","start":{"id":"4","labels":["Node"]},"end":{"id":"0","labels":["Node"]}}
+{"type":"relationship","id":"7","label":"instance_of","start":{"id":"6","labels":["Node"]},"end":{"id":"0","labels":["Node"]}}
+{"type":"relationship","id":"9","label":"instance_of","start":{"id":"8","labels":["Node"]},"end":{"id":"0","labels":["Node"]}}
+{"type":"relationship","id":"11","label":"instance_of","start":{"id":"10","labels":["Node"]},"end":{"id":"0","labels":["Node"]}}
+{"type":"relationship","id":"13","label":"instance_of","start":{"id":"12","labels":["Node"]},"end":{"id":"0","labels":["Node"]}}
+{"type":"relationship","id":"15","label":"instance_of","start":{"id":"14","labels":["Node"]},"end":{"id":"0","labels":["Node"]}}
+{"type":"relationship","id":"17","label":"instance_of","start":{"id":"16","labels":["Node"]},"end":{"id":"0","labels":["Node"]}}
+{"type":"relationship","id":"19","label":"instance_of","start":{"id":"18","labels":["Node"]},"end":{"id":"0","labels":["Node"]}}
+{"type":"relationship","id":"21","label":"instance_of","start":{"id":"20","labels":["Node"]},"end":{"id":"0","labels":["Node"]}}
+{"type":"relationship","id":"23","label":"instance_of","start":{"id":"22","labels":["Node"]},"end":{"id":"0","labels":["Node"]}}
