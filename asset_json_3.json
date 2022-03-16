@@ -1,27 +1,27 @@
-{"type": "node", "id": "0", "labels": ["Node"], "properties": {"name": "Asset Type", "type": "Object node"}}
-{"type": "node", "id": "1", "labels": ["Node"], "properties": {"name": "Attribute", "type": "Object node"}}
-{"type": "node", "id": "2", "labels": ["Node"], "properties": {"name": "Area", "type": "Object node"}}
-{"type": "node", "id": "3", "labels": ["Node"], "properties": {"name": "Sub Area", "type": "Object node"}}
-{"type": "node", "id": "4", "labels": ["Node"], "properties": {"name": "Analog Input Controller", "type": "asset", "code": "AIC"}}
-{"type": "node", "id": "6", "labels": ["Node"], "properties": {"name": "Analog Input Transmitter", "type": "asset", "code": "AIT"}}
-{"type": "node", "id": "8", "labels": ["Node"], "properties": {"name": "Arbiter", "type": "asset", "code": "ARB"}}
-{"type": "node", "id": "10", "labels": ["Node"], "properties": {"name": "Bin", "type": "asset", "code": "BIN"}}
-{"type": "node", "id": "12", "labels": ["Node"], "properties": {"name": "Blower", "type": "asset", "code": "BLR"}}
-{"type": "node", "id": "14", "labels": ["Node"], "properties": {"name": "Centrifuge", "type": "asset", "code": "CFG"}}
-{"type": "node", "id": "16", "labels": ["Node"], "properties": {"name": "Electrical Switch", "type": "asset", "code": "ES"}}
-{"type": "node", "id": "18", "labels": ["Node"], "properties": {"name": "Flow Indicator Controller", "type": "asset", "code": "FIC"}}
-{"type": "node", "id": "20", "labels": ["Node"], "properties": {"name": "FlowIndicatorTransmitter", "type": "asset", "code": "FIT"}}
-{"type": "node", "id": "22", "labels": ["Node"], "properties": {"name": "Level Indicator Controller", "type": "asset", "code": "LIC"}}
-{"type": "node", "id": "24", "labels": ["Node"], "properties": {"name": "Light", "type": "asset", "code": "LIT"}}
-{"type": "node", "id": "26", "labels": ["Node"], "properties": {"name": "Level Switch", "type": "asset", "code": "LS"}}
-{"type": "relationship", "id": "27", "labels": "instance_of", "start": {"id": "26", "labels": ["Node"]}, "end": {"id": "0", "labels": ["Node"]}}
-{"type": "relationship", "id": "5", "labels": "instance_of", "start": {"id": "4", "labels": ["Node"]}, "end": {"id": "0", "labels": ["Node"]}}
-{"type": "relationship", "id": "7", "labels": "instance_of", "start": {"id": "6", "labels": ["Node"]}, "end": {"id": "0", "labels": ["Node"]}}
-{"type": "relationship", "id": "9", "labels": "instance_of", "start": {"id": "8", "labels": ["Node"]}, "end": {"id": "0", "labels": ["Node"]}}
-{"type": "relationship", "id": "11", "labels": "instance_of", "start": {"id": "10", "labels": ["Node"]}, "end": {"id": "0", "labels": ["Node"]}}
-{"type": "relationship", "id": "13", "labels": "instance_of", "start": {"id": "12", "labels": ["Node"]}, "end": {"id": "0", "labels": ["Node"]}}
-{"type": "relationship", "id": "15", "labels": "instance_of", "start": {"id": "14", "labels": ["Node"]}, "end": {"id": "0", "labels": ["Node"]}}
-{"type": "relationship", "id": "17", "labels": "instance_of", "start": {"id": "16", "labels": ["Node"]}, "end": {"id": "0", "labels": ["Node"]}}
-{"type": "relationship", "id": "19", "labels": "instance_of", "start": {"id": "18", "labels": ["Node"]}, "end": {"id": "0", "labels": ["Node"]}}
-{"type": "relationship", "id": "21", "labels": "instance_of", "start": {"id": "20", "labels": ["Node"]}, "end": {"id": "0", "labels": ["Node"]}}
-{"type": "relationship", "id": "23", "labels": "instance_of", "start": {"id": "22", "labels": ["Node"]}, "end": {"id": "0", "labels": ["Node"]}}
+{"type":"node","id":"0","labels":["Node"],"properties":{"name":"Asset Type","type":"Object node"}}
+{"type":"node","id":"1","labels":["Node"],"properties":{"name":"Attribute","type":"Object node"}}
+{"type":"node","id":"2","labels":["Node"],"properties":{"name":"Area","type":"Object node"}}
+{"type":"node","id":"3","labels":["Node"],"properties":{"name":"Sub Area","type":"Object node"}}
+{"type":"node","id":"4","labels":["Node"],"properties":{"name":"Analog Input Controller","type":"asset","code":"AIC"}}
+{"type":"node","id":"6","labels":["Node"],"properties":{"name":"Analog Input Transmitter","type":"asset","code":"AIT"}}
+{"type":"node","id":"8","labels":["Node"],"properties":{"name":"Arbiter","type":"asset","code":"ARB"}}
+{"type":"node","id":"10","labels":["Node"],"properties":{"name":"Bin","type":"asset","code":"BIN"}}
+{"type":"node","id":"12","labels":["Node"],"properties":{"name":"Blower","type":"asset","code":"BLR"}}
+{"type":"node","id":"14","labels":["Node"],"properties":{"name":"Centrifuge","type":"asset","code":"CFG"}}
+{"type":"node","id":"16","labels":["Node"],"properties":{"name":"Electrical Switch","type":"asset","code":"ES"}}
+{"type":"node","id":"18","labels":["Node"],"properties":{"name":"Flow Indicator Controller","type":"asset","code":"FIC"}}
+{"type":"node","id":"20","labels":["Node"],"properties":{"name":"FlowIndicatorTransmitter","type":"asset","code":"FIT"}}
+{"type":"node","id":"22","labels":["Node"],"properties":{"name":"Level Indicator Controller","type":"asset","code":"LIC"}}
+{"type":"node","id":"24","labels":["Node"],"properties":{"name":"Light","type":"asset","code":"LIT"}}
+{"type":"node","id":"26","labels":["Node"],"properties":{"name":"Level Switch","type":"asset","code":"LS"}}
+{"type":"relationship","id":"27","labels":"instance_of","start":{"id":"26","labels":["Node"]},"end":{"id":"0","labels":["Node"]}}
+{"type":"relationship","id":"5","labels":"instance_of","start":{"id":"4","labels":["Node"]},"end":{"id":"0","labels":["Node"]}}
+{"type":"relationship","id":"7","labels":"instance_of","start":{"id":"6","labels":["Node"]},"end":{"id":"0","labels":["Node"]}}
+{"type":"relationship","id":"9","labels":"instance_of","start":{"id":"8","labels":["Node"]},"end":{"id":"0","labels":["Node"]}}
+{"type":"relationship","id":"11","labels":"instance_of","start":{"id":"10","labels":["Node"]},"end":{"id":"0","labels":["Node"]}}
+{"type":"relationship","id":"13","labels":"instance_of","start":{"id":"12","labels":["Node"]},"end":{"id":"0","labels":["Node"]}}
+{"type":"relationship","id":"15","labels":"instance_of","start":{"id":"14","labels":["Node"]},"end":{"id":"0","labels":["Node"]}}
+{"type":"relationship","id":"17","labels":"instance_of","start":{"id":"16","labels":["Node"]},"end":{"id":"0","labels":["Node"]}}
+{"type":"relationship","id":"19","labels":"instance_of","start":{"id":"18","labels":["Node"]},"end":{"id":"0","labels":["Node"]}}
+{"type":"relationship","id":"21","labels":"instance_of","start":{"id":"20","labels":["Node"]},"end":{"id":"0","labels":["Node"]}}
+{"type":"relationship","id":"23","labels":"instance_of","start":{"id":"22","labels":["Node"]},"end":{"id":"0","labels":["Node"]}}
